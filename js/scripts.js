@@ -194,13 +194,13 @@ $(document).ready(function () {
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Nov 27, 2021 00:00'),
+            end: new Date('Jun 27, 2021 00:00'),
 
             // Event Address
             address: "M'Ar De Ar Aqueduto, Évora, Portugal",
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Mr. Valentin Pesendorfer at #tel"
+            description: "We can't wait to see you on our big day. For any queries or issues, please contact us"
         }
     });
 
@@ -241,7 +241,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lng: -7.913608, lat: 38.575261};
+    var location = {lng: -7.913500037686701, lat: 38.575261};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
@@ -255,7 +255,7 @@ function initMap() {
 }
 
 function initBBSRMap() {
-    var la_fiesta = {lng: -7.913608, lat: 38.575261};
+    var la_fiesta = {lng: -7.913500037686701, lat: 38.5692779591021};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: la_fiesta,
